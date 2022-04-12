@@ -3,14 +3,92 @@
 }
 a {
     text-decoration: none;
-    color: white;
-}
-h1{
     color: darkgoldenrod;
+    font-family: 'Bebas Neue', cursive;
+    margin: 50px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
 }
+
+a:hover{
+    animation: cambiodecolor 10s;
+}
+@keyframes cambiodecolor {
+    0% { background-color: darkgoldenrod;
+        color: black;
+    }
+}
+
+.header{
+    margin: 10px;
+    color: darkgoldenrod;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.H1 {
+    margin: 70px 0PX;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    padding: 0px;
+    margin: 0px;
+}
+
 .planes {
     color: white;
     display: flex;
     justify-content: space-between;
 }
+
+.planhibrido{
+    padding: 0px;
+    margin: 20px;
+    border: 0px;
+    background-image: url(/Multimedia/Imagenes/PLAN\ HIBRIDO.png);
+    width: 1341px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+}
+
+
+.saludpoderosa{
+    padding: 0px;
+    margin: 20px;
+    border: 0px;
+    background-image: url(/Multimedia/Imagenes/sALUD\ PODEROSA.png);
+    width: 1341px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+}
+
+.puraspiernas{
+    padding: 0px;
+    margin: 20px;
+    border: 0px;
+    background-image: url(/Multimedia/Imagenes/puras\ piernas.png);
+    width: 1341px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+}
+
+.abuelospower{
+    padding: 0px;
+    margin: 20px;
+    border: 0px;
+    background-image: url(/Multimedia/Imagenes/aBUELOS\ POWER.png);
+    width: 1341px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+}
+
 
