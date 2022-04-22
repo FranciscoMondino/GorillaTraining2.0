@@ -1,0 +1,350 @@
+
+
+html{
+    font-size: 22px;
+    padding: 0%;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*----HOME----*/
+.bodyhome{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    display: grid;
+    grid-template-areas: 
+    "portada portada portada portada"
+    "header header header header" 
+    "section2 section2 section4 section4"
+    "section3 section3 section3 section3"
+    "section5 section5 section5 section5"
+    "contacto contacto contacto contacto";
+}
+/*imagen de portada*/
+.portada {
+    grid-area: portada;
+    
+    margin: 0%;
+    padding: 0%;
+    max-width:1340px;
+}
+/*seccion 1, header*/
+.headerhome {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0%;
+    margin: 0%;
+    top: 0%;
+    position: sticky;
+    background-color: darkgoldenrod; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+}
+
+.logohome{ 
+    color: black;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+.logohome p {
+    margin: 0%;
+}
+.imagenlogo {
+    width: 5%;
+    height: 5%;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.navbarh{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navh {
+    padding: 0%;
+    
+}
+.navh:hover {
+    animation: AnimacionH 5s;
+}
+@keyframes AnimacionH {
+    0% {
+        background-color: black  ;
+        border-radius: 20%;
+    }
+}
+
+/*fin header*/
+
+/*seccion 2*/
+.section2{
+    font-family: 'Bebas Neue', cursive;
+    padding: 0px;
+    margin: 10px 5px 10px 10px;
+    border: 0px;
+    width: 500px;
+    height: 416px;
+    background-image:url(../Multimedia/Imagenes/telefonocomputadorapixabay.jpg);
+    grid-area: section2;
+}
+
+/*seccion 3, carrucel de videos*/
+.section3 {
+    border: 1px darkgoldenrod solid;
+    grid-area: section3;
+}
+/* seccion 4*/
+
+.section4{
+    grid-area: section4;
+}
+.planesonline{
+    padding: 10px 10px 10px 5px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.planesonline div{
+    width: 200px;
+}
+
+.parrafosplanes{ 
+    padding: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    text-align:  center;
+}
+.plan:hover {
+    transform: scale(1.2);
+    animation: fondoparrafo 10s;
+}
+@keyframes fondoparrafo {
+    0% {background-color: black;
+    }
+}
+
+/*Seccion 5*/
+
+.section5{
+    font-family: 'Bebas Neue', cursive;
+    color: darkgoldenrod;
+    grid-area: section5;
+}
+.coaches{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.coach:hover{
+    transform: translateY(-20px);
+    transition: all .8s;
+}
+.elegientrenador{
+    color:darkgoldenrod;
+}
+/*Seccion 6*/
+
+.contacto{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.contacto1 {
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    grid-area: contacto;
+
+}
+
+/*----FIN HOME----*/
+
+/*----Personalizados----*/
+
+.bodypersonalizados {
+    background-color: darkgoldenrod;
+}
+.headerpersonalizados {
+    display: flex;
+    justify-content: center;
+}
+.h1personalizados {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 0px;
+    font-size: 60px;
+}
+.logopersonalizados {
+    width: 110px;
+    height: 110px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.parrafoE {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 56px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.sectionF{
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionF img {
+    width: 250px;
+    height: 250px;
+}
+.sectionF:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: black;
+}
+
+.sectionFr{
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionFr img {
+    width: 250px;
+    height: 250px;
+}
+.sectionFr:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: black;
+}
+
+.sectionV{
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionV img {
+    width: 250px;
+    height: 250px;
+}
+.sectionV:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: black;
+}
+
+/* Planes Online */
+
+.bodyplanesonline {
+    background-color:black ;
+}
+.aplanes {
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-family: 'Bebas Neue', cursive;
+    margin: 50px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.aplanes:hover{
+    animation: cambiodecolor 10s;
+}
+@keyframes cambiodecolor {
+    0% { background-color: darkgoldenrod;
+        color: black;
+    }
+}
+
+.headerplanes {
+    margin: 10px;
+    color: darkgoldenrod;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.h1planes {
+    margin: 70px 0PX;
+}
+
+.logoplanes {
+    width: 110px;
+    height: 110px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.planes {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.planhibrido{
+    padding: 0px;
+    margin: 20px;
+    border: 0px;
+    background-image: url(/Multimedia/Imagenes/PLAN\ HIBRIDO.png);
+    width: 1341px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+}
+
+
+.saludpoderosa{
+    padding: 0px;
+    margin: 20px;
+    border: 0px;
+    background-image: url(/Multimedia/Imagenes/sALUD\ PODEROSA.png);
+    width: 1341px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+}
+
+.puraspiernas{
+    padding: 0px;
+    margin: 20px;
+    border: 0px;
+    background-image: url(/Multimedia/Imagenes/puras\ piernas.png);
+    width: 1341px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+}
+
+.abuelospower{
+    padding: 0px;
+    margin: 20px;
+    border: 0px;
+    background-image: url(/Multimedia/Imagenes/aBUELOS\ POWER.png);
+    width: 1341px;
+    height: 154px;
+    display: flex;
+    align-items: center;
+}
