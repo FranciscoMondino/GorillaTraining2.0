@@ -8,8 +8,8 @@ body h1 {
   font-family: "Roboto Condensed", sans-serif;
 }
 body header {
-  padding: 5px;
-  margin: 0pc;
+  padding: 100;
+  margin: 0px;
   display: flex;
   background-color: darkgoldenrod;
   justify-content: center;
@@ -34,28 +34,31 @@ body header div a:hover {
   padding: 0%;
   margin: 0%;
   display: grid;
-  grid-template-areas: "portada portada portada portada" "header header header header" "section2 section2 section4 section4" "section3 section3 section3 section3" "section5 section5 section5 section5" "contacto contacto contacto contacto";
+  grid-template-areas: "portada portada" "header1 header1" "section2 section4" "section3 section3" "section5 section5" "contacto contacto";
+}
+.bodyhome .portada {
+  width: 235%;
+  padding: 20% 8.5%;
+  display: flex;
+  justify-content: center;
 }
 .bodyhome .portada .imagenportada {
+  max-width: 70%;
   grid-area: portada;
   margin: 0%;
   padding: 0%;
-  max-width: 1340px;
 }
 .bodyhome .headerhome {
   color: white;
   font-family: "Bebas Neue", cursive;
-  padding: 0%;
-  margin: 0%;
+  padding: 0% 0%;
+  margin: 5% 0%;
   top: 0%;
   position: sticky;
   background-color: darkgoldenrod;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  grid-area: header;
+  grid-area: header1;
 }
-.bodyhome .headerhome .logohome {
+.bodyhome .headerhome .logohome p {
   color: black;
   display: flex;
   justify-content: first baseline;
@@ -63,21 +66,29 @@ body header div a:hover {
   padding: 0%;
   margin: 0%;
 }
-.bodyhome .headerhome .logohome .imagenlogo {
+.bodyhome .headerhome .logohome p .imagenlogo {
   width: 5%;
   height: 5%;
   padding: 0%;
   margin: 0%;
 }
-.bodyhome .headerhome .logohome p {
-  margin: 0%;
-}
 .bodyhome .headerhome .navbarh {
+  padding: 0%;
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 .bodyhome .headerhome .navbarh .navh {
+  padding: 1px;
+  margin: 0%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 150%;
+}
+.bodyhome .headerhome .navbarh .navh .aplan {
   padding: 0%;
+  margin: 0%;
 }
 .bodyhome .headerhome .navbarh .navh:hover {
   animation: AnimacionH 5s;
@@ -92,11 +103,54 @@ body header div a:hover {
   font-family: "Bebas Neue", cursive;
   padding: 0px;
   margin: 10px 5px 10px 10px;
-  border: 0px;
-  width: 500px;
-  height: 416px;
+  border: 0%;
+  width: 95%;
+  height: 93%;
   background-image: url(../Multimedia/Imagenes/telefonocomputadorapixabay.jpg);
   grid-area: section2;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.bodyhome .section2 .boton {
+  width: 30%;
+  padding: 0%;
+  margin: 10%;
+}
+.bodyhome .section2 .boton .botoncomenzar {
+  padding: 0%;
+  margin: 2.5%;
+  background-color: black;
+  border-radius: 10%;
+}
+.bodyhome .section2 .boton .botoncomenzar .comenzar {
+  padding: 10%;
+}
+.bodyhome .section2 .boton .botoncomenzar:hover {
+  background-color: darkgoldenrod;
+}
+.bodyhome .section2 .boton .botoncomenzar:hover .comenzar {
+  color: black;
+}
+.bodyhome .section2 .boton .botoninfo {
+  padding: 0%;
+  margin: 2.5%;
+  background-color: black;
+  border-radius: 10%;
+}
+.bodyhome .section2 .boton .botoninfo .info {
+  padding: 10%;
+  margin: 20%;
+}
+.bodyhome .section2 .boton .botoninfo:hover {
+  background-color: darkgoldenrod;
+}
+.bodyhome .section2 .boton .botoninfo:hover .info {
+  color: black;
+}
+.bodyhome .section2 .boton a {
+  text-decoration: none;
+  color: darkgoldenrod;
 }
 .bodyhome .section3 {
   border: 1px darkgoldenrod solid;
@@ -104,14 +158,16 @@ body header div a:hover {
 }
 .bodyhome .section4 {
   grid-area: section4;
+  width: 100%;
 }
 .bodyhome .section4 .planesonline {
-  padding: 10px 10px 10px 5px;
-  margin: 0px;
+  padding: 5% 1% 1% 1%;
+  margin: 0%;
   display: flex;
   justify-content: space-around;
 }
 .bodyhome .section4 .planesonline .plan:hover {
+  transition: 2s;
   transform: scale(1.2);
   animation: fondoparrafo 10s;
 }
@@ -121,13 +177,21 @@ body header div a:hover {
   }
 }
 .bodyhome .section4 .planesonline .plan {
-  width: 200px;
+  width: 20%;
+  padding: 0%;
 }
 .bodyhome .section4 .planesonline .plan .parrafosplanes {
   padding: 0%;
   font-family: "Roboto Condensed", sans-serif;
+  color: white;
   font-size: 16px;
   text-align: center;
+}
+.bodyhome .section4 .planesonline .plan .imagenplan {
+  width: 100%;
+}
+.bodyhome .section4 .planesonline .plan .aplan1 {
+  text-decoration: none;
 }
 .bodyhome .section5 {
   font-family: "Bebas Neue", cursive;
