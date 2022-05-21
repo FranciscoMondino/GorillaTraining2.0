@@ -1,5 +1,5 @@
 .bodyeducacion {
-  background-image: url(/Multimedia/Imagenes/textura\ definitiva.png);
+  background-image: url(../Multimedia/Imagenes/textura\ definitiva.png);
   background-size: cover;
 }
 .bodyeducacion .portadaeducacion {
@@ -46,7 +46,7 @@
 }
 
 .bodyhome {
-  background-image: url(/Multimedia/Imagenes/textura\ definitiva.png);
+  background-image: url(../Multimedia/Imagenes/textura\ definitiva.png);
   background-size: cover;
   padding: 0%;
   margin: 0%;
@@ -291,7 +291,7 @@
 }
 
 .bodypersonalizados {
-  background-image: url(/Multimedia/Imagenes/textura\ definitiva.png);
+  background-image: url(../Multimedia/Imagenes/textura\ definitiva.png);
   background-size: contain;
 }
 .bodypersonalizados .parrafoE {
@@ -423,7 +423,7 @@
   margin: 2%;
   display: flex;
   justify-content: space-between;
-  background-image: url(/Multimedia/Imagenes/textura-oscura-acuarela_125540-769.jpg);
+  background-image: url(../Multimedia/Imagenes/textura-oscura-acuarela_125540-769.jpg);
 }
 .bodyplanesonline .planes .planhibrido {
   width: 100%;
