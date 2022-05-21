@@ -1,15 +1,14 @@
-@charset "UTF-8";
-body {
-  background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+.bodyeducacion {
+  background-image: url(/Multimedia/Imagenes/textura\ definitiva.png);
   background-size: cover;
 }
-body .portadaeducacion {
-  width: 50%;
-  height: 50%;
+.bodyeducacion .portadaeducacion {
+  width: 70%;
+  height: 70%;
   margin: 2%;
-  padding: 3% 23%;
+  padding: 1% 13%;
 }
-body .uleducacion {
+.bodyeducacion .uleducacion {
   background-color: black;
   border-radius: 5%;
   padding: 0%;
@@ -17,29 +16,29 @@ body .uleducacion {
   display: flex;
   justify-content: center;
 }
-body .uleducacion .h1educacion {
+.bodyeducacion .uleducacion .h1educacion {
   font-size: 140%;
   color: darkgoldenrod;
   font-family: "Bebas Neue", cursive;
 }
-body header {
+.bodyeducacion .header-ed {
   padding: 0%;
   margin: 0%;
   background-color: darkgoldenrod;
   display: flex;
   justify-content: space-between;
 }
-body header div {
+.bodyeducacion .header-ed .tip {
   padding: 1%;
   margin: 0% 10%;
   font-family: "Bebas Neue", cursive;
   font-size: 150%;
 }
-body header div a {
+.bodyeducacion .header-ed .tip .aed {
   text-decoration: none;
   color: black;
 }
-body header div a:hover {
+.bodyeducacion .header-ed .tip .aed:hover {
   padding: 5px;
   border-radius: 15px;
   background-color: black;
@@ -47,7 +46,7 @@ body header div a:hover {
 }
 
 .bodyhome {
-  background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+  background-image: url(/Multimedia/Imagenes/textura\ definitiva.png);
   background-size: cover;
   padding: 0%;
   margin: 0%;
@@ -106,6 +105,8 @@ body header div a:hover {
 .bodyhome .headerhome .navbarh .navh .aplan {
   padding: 0%;
   margin: 0%;
+  text-decoration: none;
+  color: black;
 }
 .bodyhome .headerhome .navbarh .navh:hover {
   animation: AnimacionH 5s;
@@ -290,7 +291,7 @@ body header div a:hover {
 }
 
 .bodypersonalizados {
-  background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+  background-image: url(/Multimedia/Imagenes/textura\ definitiva.png);
   background-size: contain;
 }
 .bodypersonalizados .parrafoE {
@@ -374,7 +375,7 @@ body header div a:hover {
 }
 
 .bodyplanesonline {
-  background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+  background-image: url(/Multimedia/Imagenes/textura\ definitiva.png);
   background-size: contain;
 }
 .bodyplanesonline .imagenportada {
@@ -490,7 +491,7 @@ body header div a:hover {
   font-size: 500%;
   text-align: center;
 }
-.bodyplanesonline .planes .ps {
+.bodyplanesonline .planes .pabuelos {
   padding: 5%;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: medium;
