@@ -1,88 +1,132 @@
 .bodyplanesonline {
-    background-color:black ;
+    background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+    background-size: contain;
+    .imagenportada{
+        width: 50%;
+        height: 50%;
+        margin: 2%;
+        padding: 3% 23% ;
+    }
+    .headerplanes {
+        background-color: black;
+        border-radius: 5%;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        .h1planes{
+            font-size: 140%;
+            color: darkgoldenrod;
+            font-family: 'Bebas Neue', cursive;
+        }
+    }
     .aplanes {
         text-decoration: none;
         color: darkgoldenrod;
         font-family: 'Bebas Neue', cursive;
-        margin: 50px;
-        padding: 10px;
+        font-size: 150%;
+        margin: 5%;
+        padding: 1%1%;
         background-color: black;
-        border-radius: 15px;
+        border-radius: 10%;
     }
     
     .aplanes:hover{
-        animation: cambiodecolor 10s;
+        animation: cambiodecolor 180s;
     }
     @keyframes cambiodecolor {
         0% { background-color: darkgoldenrod;
             color: black;
-        }
-    }
-    .headerplanes {
-        margin: 10px;
-        color: darkgoldenrod;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 70px;
-        display: flex;
-        justify-content: center;
-        .h1planes {
-            margin: 70px 0PX;
-        }
-        .logoplanes {
-            width: 110px;
-            height: 110px;
-            padding: 0px;
-            margin: 0px;
+            font-size: 300%;
         }
     }
     .planes {
         color: white;
+        padding: 0%;
+        margin: 2%;
         display: flex;
         justify-content: space-between;
+        background-image: url(/Multimedia/Imagenes/textura-oscura-acuarela_125540-769.jpg);
         .planhibrido{
-            padding: 0px;
-            margin: 20px;
-            border: 0px;
-            background-image: url(/Multimedia/Imagenes/PLAN\ HIBRIDO.png);
-            width: 1341px;
-            height: 154px;
+            width: 100%;
+            height: 100%;
             display: flex;
+            justify-content: space-between;
             align-items: center;
         }
+        .hibrido {
+            font-family: 'Bebas Neue', cursive;
+            margin: 3% 10%;
+            font-size: 500%;
+            text-align: center;
+        }
+
+        .phibrido {
+            padding: 5%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: medium;
+            
+        }
+
         
         
         .saludpoderosa{
-            padding: 0px;
-            margin: 20px;
-            border: 0px;
-            background-image: url(/Multimedia/Imagenes/sALUD\ PODEROSA.png);
-            width: 1341px;
-            height: 154px;
+            width: 100%;
+            height: 100%;
             display: flex;
             align-items: center;
+        }
+        .salud {
+            font-family: 'Bebas Neue', cursive;
+            margin: 3% 10%;
+            font-size: 500%;
+            text-align: center;
+        }
+        .psalud {
+            padding: 5%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: medium;
+            text-align: justify;
         }
         
         .puraspiernas{
-            padding: 0px;
-            margin: 20px;
-            border: 0px;
-            background-image: url(/Multimedia/Imagenes/puras\ piernas.png);
-            width: 1341px;
-            height: 154px;
+            width: 100%;
+            height: 100%;
             display: flex;
             align-items: center;
+        }
+        .piernas {
+            font-family: 'Bebas Neue', cursive;
+            margin: 3% 10%;
+            font-size: 500%;
+            text-align: center;
+        }
+        .ppiernas {
+            padding: 5%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: medium;
+            text-align: justify;
         }
         
         .abuelospower{
-            padding: 0px;
-            margin: 20px;
-            border: 0px;
-            background-image: url(/Multimedia/Imagenes/aBUELOS\ POWER.png);
-            width: 1341px;
-            height: 154px;
+            width: 100%;
+            height: 100%;
             display: flex;
             align-items: center;
         }
+        .abuelos {
+            font-family: 'Bebas Neue', cursive;
+            margin: 3% 10%;
+            font-size: 500%;
+            text-align: center;
+        }
+        .ps {
+            padding: 5%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: medium;
+            text-align: justify;
+        }
+        
     }
     
 }

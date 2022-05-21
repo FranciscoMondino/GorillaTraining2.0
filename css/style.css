@@ -1,22 +1,39 @@
+@charset "UTF-8";
 body {
+  background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+  background-size: cover;
+}
+body .portadaeducacion {
+  width: 50%;
+  height: 50%;
+  margin: 2%;
+  padding: 3% 23%;
+}
+body .uleducacion {
   background-color: black;
-}
-body h1 {
-  color: darkgoldenrod;
-  text-align: center;
-  font-size: 60px;
-  font-family: "Roboto Condensed", sans-serif;
-}
-body header {
-  padding: 100;
-  margin: 0px;
+  border-radius: 5%;
+  padding: 0%;
+  margin: 2%;
   display: flex;
-  background-color: darkgoldenrod;
   justify-content: center;
 }
+body .uleducacion .h1educacion {
+  font-size: 140%;
+  color: darkgoldenrod;
+  font-family: "Bebas Neue", cursive;
+}
+body header {
+  padding: 0%;
+  margin: 0%;
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: space-between;
+}
 body header div {
-  font-family: "Roboto Condensed", sans-serif;
-  padding: 5px 90px;
+  padding: 1%;
+  margin: 0% 10%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 150%;
 }
 body header div a {
   text-decoration: none;
@@ -30,7 +47,8 @@ body header div a:hover {
 }
 
 .bodyhome {
-  background-color: black;
+  background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+  background-size: cover;
   padding: 0%;
   margin: 0%;
   display: grid;
@@ -43,10 +61,9 @@ body header div a:hover {
   justify-content: center;
 }
 .bodyhome .portada .imagenportada {
-  max-width: 70%;
+  max-width: 80%;
   grid-area: portada;
-  margin: 0%;
-  padding: 0%;
+  padding: 0% 2%;
 }
 .bodyhome .headerhome {
   color: white;
@@ -81,7 +98,7 @@ body header div a:hover {
   align-items: center;
 }
 .bodyhome .headerhome .navbarh .navh {
-  padding: 1px;
+  padding: 0.5%;
   margin: 0%;
   font-family: "Bebas Neue", cursive;
   font-size: 150%;
@@ -105,8 +122,8 @@ body header div a:hover {
   margin: 10px 5px 10px 10px;
   border: 0%;
   width: 95%;
-  height: 93%;
-  background-image: url(../Multimedia/Imagenes/telefonocomputadorapixabay.jpg);
+  height: 85%;
+  background-image: url(../Multimedia/Imagenes/imagen\ seccion\ 2.png);
   grid-area: section2;
   display: flex;
   justify-content: start;
@@ -118,6 +135,7 @@ body header div a:hover {
   margin: 10%;
 }
 .bodyhome .section2 .boton .botoncomenzar {
+  width: 150%;
   padding: 0%;
   margin: 2.5%;
   background-color: black;
@@ -125,6 +143,8 @@ body header div a:hover {
 }
 .bodyhome .section2 .boton .botoncomenzar .comenzar {
   padding: 10%;
+  font-size: 150%;
+  text-align: center;
 }
 .bodyhome .section2 .boton .botoncomenzar:hover {
   background-color: darkgoldenrod;
@@ -153,8 +173,14 @@ body header div a:hover {
   color: darkgoldenrod;
 }
 .bodyhome .section3 {
-  border: 1px darkgoldenrod solid;
   grid-area: section3;
+}
+.bodyhome .section3 .videos {
+  display: flex;
+  justify-content: space-around;
+}
+.bodyhome .section3 .videos .video {
+  padding: 1%;
 }
 .bodyhome .section4 {
   grid-area: section4;
@@ -167,9 +193,9 @@ body header div a:hover {
   justify-content: space-around;
 }
 .bodyhome .section4 .planesonline .plan:hover {
-  transition: 2s;
+  transition: 5s;
   transform: scale(1.2);
-  animation: fondoparrafo 10s;
+  animation: fondoparrafo 60s;
 }
 @keyframes fondoparrafo {
   0% {
@@ -200,64 +226,74 @@ body header div a:hover {
 }
 .bodyhome .elegientrenador {
   color: darkgoldenrod;
+  padding: 5%;
+  font-size: 300%;
 }
 .bodyhome .coaches {
   display: flex;
   justify-content: space-around;
 }
+.bodyhome .coach {
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: darkgoldenrod;
+}
+.bodyhome .coach p {
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+}
 .bodyhome .coach:hover {
-  transform: translateY(-20px);
+  transform: translateY(-20px) scale(1.2);
   transition: all 0.8s;
+  color: white;
 }
 
 .footer {
   grid-area: contacto;
+  padding: 5%;
 }
 .footer .contacto {
   color: white;
-  padding: 0px;
-  margin: 0px;
+  padding: 0%;
+  margin: 0%;
 }
 .footer .contacto .contacto1 {
+  padding: 1%;
+  margin: 0%;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  color: darkgoldenrod;
+}
+.footer .contacto .contacto1 .IG {
+  width: 2%;
+  height: 2%;
+  display: flex;
+  align-content: center;
+}
+.footer .contacto .contacto1 .WP {
+  width: 2%;
+  height: 2%;
+}
+.footer .contacto .contacto1 .IGp {
+  margin: 0.2%;
+}
+.footer .contacto .contacto1 .WPp {
+  margin: 0.2%;
+}
+.footer .contacto .contacto1:hover {
+  transform: scale(1.5);
+  transition: 3s;
+  color: white;
 }
 
 .bodypersonalizados {
-  background-color: darkgoldenrod;
+  background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+  background-size: contain;
 }
-.bodypersonalizados .headerpersonalizados {
-  display: flex;
-  justify-content: center;
-}
-.bodypersonalizados .headerpersonalizados .h1personalizados {
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
-  padding: 0px;
-  font-size: 60px;
-}
-.bodypersonalizados .headerpersonalizados .logopersonalizados {
-  width: 110px;
-  height: 110px;
-  padding: 0px;
-  margin: 0px;
-}
-.bodypersonalizados .sectionF {
-  padding: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.bodypersonalizados .sectionF .sectionF:hover {
-  transform: scale(1.1);
-  transition: 1s;
-  background-color: black;
-}
-.bodypersonalizados .sectionF .sectionF img {
-  width: 250px;
-  height: 250px;
-}
-.bodypersonalizados .sectionF .parrafoE {
+.bodypersonalizados .parrafoE {
   background-color: black;
   color: white;
   margin: 10px;
@@ -265,119 +301,200 @@ body header div a:hover {
   text-align: center;
   font-family: "Bebas Neue", cursive;
 }
-.bodypersonalizados .sectionFr {
-  padding: 45px;
+.bodypersonalizados .logopersonalizados {
+  width: 50%;
+  height: 50%;
+  margin: 2%;
+  padding: 3% 23%;
+}
+.bodypersonalizados .headerpersonalizados {
+  background-color: black;
+  border-radius: 5%;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+}
+.bodypersonalizados .headerpersonalizados .h1personalizados {
+  font-size: 140%;
+  color: darkgoldenrod;
+  font-family: "Bebas Neue", cursive;
+}
+.bodypersonalizados .sectionF:hover {
+  transform: scale(1.07);
+  transition: 1s;
+  background-color: black;
+}
+.bodypersonalizados .sectionF {
+  padding: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.bodypersonalizados .sectionFr .sectionFr img {
-  width: 250px;
-  height: 250px;
+.bodypersonalizados .sectionF .imagenF {
+  width: 55%;
+  height: 55%;
 }
-.bodypersonalizados .sectionFr .sectionFr:hover {
+.bodypersonalizados .sectionFr:hover {
+  transform: scale(1.07);
+  transition: 1s;
+  background-color: black;
+}
+.bodypersonalizados .linkWP {
+  text-decoration: none;
+  color: transparent;
+}
+.bodypersonalizados .linkWP:hover {
+  color: white;
+}
+.bodypersonalizados .sectionFr {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodypersonalizados .sectionFr .imagenFr {
+  width: 55%;
+  height: 100%;
+}
+.bodypersonalizados .sectionV:hover {
   transform: scale(1.1);
   transition: 1s;
   background-color: black;
 }
 .bodypersonalizados .sectionV {
-  padding: 45px;
+  padding: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.bodypersonalizados .sectionV .sectionV img {
-  width: 250px;
-  height: 250px;
-}
-.bodypersonalizados .sectionV .sectionV:hover {
-  transform: scale(1.1);
-  transition: 1s;
-  background-color: black;
+.bodypersonalizados .sectionV .imagenV {
+  width: 55%;
+  height: 55%;
 }
 
 .bodyplanesonline {
+  background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+  background-size: contain;
+}
+.bodyplanesonline .imagenportada {
+  width: 50%;
+  height: 50%;
+  margin: 2%;
+  padding: 3% 23%;
+}
+.bodyplanesonline .headerplanes {
   background-color: black;
+  border-radius: 5%;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+}
+.bodyplanesonline .headerplanes .h1planes {
+  font-size: 140%;
+  color: darkgoldenrod;
+  font-family: "Bebas Neue", cursive;
 }
 .bodyplanesonline .aplanes {
   text-decoration: none;
   color: darkgoldenrod;
   font-family: "Bebas Neue", cursive;
-  margin: 50px;
-  padding: 10px;
+  font-size: 150%;
+  margin: 5%;
+  padding: 1% 1%;
   background-color: black;
-  border-radius: 15px;
+  border-radius: 10%;
 }
 .bodyplanesonline .aplanes:hover {
-  animation: cambiodecolor 10s;
+  animation: cambiodecolor 180s;
 }
 @keyframes cambiodecolor {
   0% {
     background-color: darkgoldenrod;
     color: black;
+    font-size: 300%;
   }
-}
-.bodyplanesonline .headerplanes {
-  margin: 10px;
-  color: darkgoldenrod;
-  font-family: "Bebas Neue", cursive;
-  font-size: 70px;
-  display: flex;
-  justify-content: center;
-}
-.bodyplanesonline .headerplanes .h1planes {
-  margin: 70px 0PX;
-}
-.bodyplanesonline .headerplanes .logoplanes {
-  width: 110px;
-  height: 110px;
-  padding: 0px;
-  margin: 0px;
 }
 .bodyplanesonline .planes {
   color: white;
+  padding: 0%;
+  margin: 2%;
   display: flex;
   justify-content: space-between;
+  background-image: url(/Multimedia/Imagenes/textura-oscura-acuarela_125540-769.jpg);
 }
 .bodyplanesonline .planes .planhibrido {
-  padding: 0px;
-  margin: 20px;
-  border: 0px;
-  background-image: url(/Multimedia/Imagenes/PLAN\ HIBRIDO.png);
-  width: 1341px;
-  height: 154px;
+  width: 100%;
+  height: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+.bodyplanesonline .planes .hibrido {
+  font-family: "Bebas Neue", cursive;
+  margin: 3% 10%;
+  font-size: 500%;
+  text-align: center;
+}
+.bodyplanesonline .planes .phibrido {
+  padding: 5%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: medium;
 }
 .bodyplanesonline .planes .saludpoderosa {
-  padding: 0px;
-  margin: 20px;
-  border: 0px;
-  background-image: url(/Multimedia/Imagenes/sALUD\ PODEROSA.png);
-  width: 1341px;
-  height: 154px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
+}
+.bodyplanesonline .planes .salud {
+  font-family: "Bebas Neue", cursive;
+  margin: 3% 10%;
+  font-size: 500%;
+  text-align: center;
+}
+.bodyplanesonline .planes .psalud {
+  padding: 5%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: medium;
+  text-align: justify;
 }
 .bodyplanesonline .planes .puraspiernas {
-  padding: 0px;
-  margin: 20px;
-  border: 0px;
-  background-image: url(/Multimedia/Imagenes/puras\ piernas.png);
-  width: 1341px;
-  height: 154px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
 }
+.bodyplanesonline .planes .piernas {
+  font-family: "Bebas Neue", cursive;
+  margin: 3% 10%;
+  font-size: 500%;
+  text-align: center;
+}
+.bodyplanesonline .planes .ppiernas {
+  padding: 5%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: medium;
+  text-align: justify;
+}
 .bodyplanesonline .planes .abuelospower {
-  padding: 0px;
-  margin: 20px;
-  border: 0px;
-  background-image: url(/Multimedia/Imagenes/aBUELOS\ POWER.png);
-  width: 1341px;
-  height: 154px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
+}
+.bodyplanesonline .planes .abuelos {
+  font-family: "Bebas Neue", cursive;
+  margin: 3% 10%;
+  font-size: 500%;
+  text-align: center;
+}
+.bodyplanesonline .planes .ps {
+  padding: 5%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: medium;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

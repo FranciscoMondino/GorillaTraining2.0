@@ -1,73 +1,90 @@
 .bodypersonalizados {
-    background-color: darkgoldenrod;
+    background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+    background-size: contain;
+    .parrafoE {
+        background-color: black;
+        color: white;
+        margin: 10px;
+        padding: 56px;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .logopersonalizados {
+        width: 50%;
+        height: 50%;
+        margin: 2%;
+        padding: 3% 23% ;
+    }
     .headerpersonalizados {
+        background-color: black;
+        border-radius: 5%;
+        padding: 0%;
+        margin: 0%;
         display: flex;
         justify-content: center;
         .h1personalizados {
-            font-family: 'Roboto Condensed', sans-serif;
-            text-align: center;
-            padding: 0px;
-            font-size: 60px;
-        }
-        .logopersonalizados {
-            width: 110px;
-            height: 110px;
-            padding: 0px;
-            margin: 0px;
-        }
-    }
-    .sectionF{
-        padding: 45px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .sectionF:hover{
-            transform: scale(1.1);
-            transition: 1s;
-            background-color: black;
-        }
-        .sectionF img {
-            width: 250px;
-            height: 250px;
-        }
-        .parrafoE {
-            background-color: black;
-            color: white;
-            margin: 10px;
-            padding: 56px;
-            text-align: center;
+            font-size: 140%;
+            color: darkgoldenrod;
             font-family: 'Bebas Neue', cursive;
         }
+
+    }
+    .sectionF:hover{
+        transform: scale(1.07);
+        transition: 1s;
+        background-color: black;
+    }
+    .sectionF{
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .imagenF {
+            width: 55%;
+            height: 55%;
+        }
+        
+    }
+    .sectionFr:hover{
+        transform: scale(1.07);
+        transition: 1s;
+        background-color: black;
+    }
+    .linkWP {
+        text-decoration: none;
+        color: transparent;
+    }
+    .linkWP:hover {
+        color: white;
     }
     .sectionFr{
-        padding: 45px;
+        padding: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .sectionFr img {
-            width: 250px;
-            height: 250px;
+        
+        .imagenFr {
+            width: 55%;
+            height: 100%;
         }
-        .sectionFr:hover{
-            transform: scale(1.1);
-            transition: 1s;
-            background-color: black;
-        }
+        
+    }
+    .sectionV:hover{
+        transform: scale(1.1);
+        transition: 1s;
+        background-color: black;
     }
     .sectionV{
-        padding: 45px;
+        padding: 5%;
         display: flex;
         justify-content: center;
         align-items: center;
-        .sectionV img {
-            width: 250px;
-            height: 250px;
+        .imagenV {
+            width: 55%;
+            height: 55%;
         }
-        .sectionV:hover{
-            transform: scale(1.1);
-            transition: 1s;
-            background-color: black;
-        }
+        
     }
     
 

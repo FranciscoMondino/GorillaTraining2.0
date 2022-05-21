@@ -1,20 +1,36 @@
 body {
-    background-color: black;
-    h1 {
-        color: darkgoldenrod;
-        text-align: center;
-        font-size: 60px;
-        font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+    background-size: cover;
+    .portadaeducacion {
+        width: 50%;
+        height: 50%;
+        margin: 2%;
+        padding: 3% 23% ;
     }
-        header {
-        padding: 100;
-        margin: 0px;
+    .uleducacion{
+        background-color: black;
+        border-radius: 5%;
+        padding: 0%;
+        margin: 2%;
         display: flex;
-        background-color: darkgoldenrod;
         justify-content: center;
+        .h1educacion {
+            font-size: 140%;
+            color: darkgoldenrod;
+            font-family: 'Bebas Neue', cursive;
+        }
+    }
+   header {
+        padding: 0%;
+        margin: 0%;
+        background-color: darkgoldenrod;
+        display: flex;
+        justify-content: space-between;
          div {
-            font-family: 'Roboto Condensed', sans-serif;
-            padding: 5px 90px;
+            padding: 1%;   
+                margin: 0% 10%;
+                font-family: 'Bebas Neue', cursive;
+                font-size: 150%;
                 a {
                 text-decoration: none; 
                 color: black;

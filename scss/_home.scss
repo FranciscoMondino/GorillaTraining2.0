@@ -1,5 +1,7 @@
+
 .bodyhome {
-    background-color: black;
+    background-image: url(/Multimedia/Imagenes/—Pngtree—garbage\ texture\ line\ corrugated\ stone_1595126.png);
+    background-size: cover;
     padding: 0%;
     margin: 0%;
     display: grid;
@@ -16,10 +18,9 @@
         display: flex;
         justify-content: center;
         .imagenportada {
-            max-width: 70%;
+            max-width: 80%;
             grid-area: portada;
-            margin: 0%;
-            padding: 0%;
+            padding: 0% 2%;
         }
     }
     .headerhome {
@@ -56,7 +57,7 @@
             justify-content: space-around;
             align-items: center;
             .navh {
-                padding: 1px;   
+                padding: 0.5%;   
                 margin: 0%;
                 font-family: 'Bebas Neue', cursive;
                 font-size: 150%;
@@ -83,8 +84,8 @@
         margin: 10px 5px 10px 10px;
         border: 0%;
         width: 95%;
-        height: 93%; 
-        background-image:url(../Multimedia/Imagenes/telefonocomputadorapixabay.jpg);
+        height: 85%; 
+        background-image:url(../Multimedia/Imagenes/imagen\ seccion\ 2.png);
         grid-area: section2;
         display: flex;
         justify-content: start;
@@ -94,12 +95,15 @@
             padding: 0%;
             margin: 10%;
             .botoncomenzar {
+                width: 150%;
                 padding: 0%;
                 margin: 2.5%;
                 background-color: black;
                 border-radius: 10%;
                 .comenzar {
                     padding: 10%;
+                    font-size: 150%;
+                    text-align: center;
                 }
             }
             .botoncomenzar:hover {
@@ -124,8 +128,6 @@
                     color: black;
                 }
             }
-            
-        
         }
         .boton a {
             text-decoration: none;
@@ -134,8 +136,14 @@
     }
 
     .section3 {
-        border: 1px darkgoldenrod solid;
-        grid-area: section3;
+       grid-area: section3;
+       .videos {
+           display: flex;
+           justify-content: space-around;
+           .video {
+               padding: 1%;
+           }
+       }
     }
     .section4{
         grid-area: section4;
@@ -146,9 +154,10 @@
             display: flex;
             justify-content: space-around;
             .plan:hover {
-                transition: 2s;
+                
+                transition: 5s;
                 transform: scale(1.2);
-                animation: fondoparrafo 10s;
+                animation: fondoparrafo 60s;
             }
             @keyframes fondoparrafo {
                 0% {background-color: black;
@@ -182,26 +191,67 @@
         }   
         .elegientrenador{
             color:darkgoldenrod;
+            padding: 5%;
+            font-size: 300%;
         }
         .coaches{
             display: flex;
             justify-content: space-around;
             
         }
+        .coach {
+            text-decoration: none;
+            font-family: 'Bebas Neue', cursive;
+            color:darkgoldenrod;
+        }
+        .coach p {
+            font-size: 150%;
+            display: flex;
+            justify-content: center;
+        }
         .coach:hover{
-            transform: translateY(-20px);
+            transform: translateY(-20px) scale(1.2);
             transition: all .8s;
+            color: white;
         }
     }
     .footer{
         grid-area: contacto;
+        padding: 5%;
         .contacto{
             color: white;
-            padding: 0px;
-            margin: 0px;
+            padding: 0%;
+            margin: 0%;
             .contacto1 {
+                padding: 1%;
+                margin: 0% ;
                 display: flex;
                 justify-content: center;
+                text-decoration: none;
+                font-family: 'Bebas Neue', cursive;
+                color:darkgoldenrod;
+                .IG {
+                    width: 2%;
+                    height: 2%;
+                    display: flex;
+                    align-content: center;
+                }
+                .WP {
+                    width: 2%;
+                    height: 2%;
+                }
+                .IGp {
+                    margin: 0.2%;
+                }
+                .WPp {
+                    margin: 0.2%;
+                }
+            
+            }
+            .contacto1:hover {
+                transform: scale(1.5);
+                transition: 3s;
+                color: white;
             }
         }
     }
